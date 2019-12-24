@@ -6,12 +6,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static TextView mModeBtn;
-    private static FrameLayout mEngineerView;
+    private TextView mModeBtn;
+    private LinearLayout mEngineerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
